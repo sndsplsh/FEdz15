@@ -1,0 +1,19 @@
+let me = {
+  name: "Dan Sokolovsky",
+  age: 30,
+  height: 1.76,
+  place: "Kyiv",
+}
+for (var [key, value] of me) {
+console.log(key + ' = ' + value);
+let json = JSON.stringify(me);
+alert(typeof json);
+let meCopy = Object.assign({}, me);
+console.log(meCopy);
+let tnumbers = new Map();
+thumbers.set("Mother", "+380954348470");
+thumbers.set("Father", "+380952789331");
+thumbers.set("Nikita", "+380637878122");
+thumbers.set("Andrey", "+380957428440");
+for (var [key, value] of tnumbers.entries()) {
+  console.log(key + ' = ' + value);
